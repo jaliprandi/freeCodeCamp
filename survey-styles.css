@@ -1,0 +1,45 @@
+body {
+  background-color:#040404;
+  color: lightgrey;
+}
+
+h1, p {
+  text-align: center;
+}
+
+main {
+  background-color: black;
+  margin: 0 auto;
+  width: 50%;
+  min-width: 400px;
+  max-with: 800px;
+}
+#survey-form {
+  padding: 20px;
+}
+
+input,
+textarea,
+select {
+  background-color: #202020;
+  color: #d3d3d3;
+  display: block;
+  width: 100%;
+  margin: 0.2em 0 1em 0;
+}
+
+input[type="radio"],
+input[type="checkbox"]
+{
+  width: unset;
+  display: unset;
+}
+
+label {
+  display:block;
+  margin-bottom:0.2em;
+}
+
+textarea {
+  height: 5em;
+}
